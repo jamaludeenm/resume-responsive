@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.flex-head h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 3.3rem;
+    padding-bottom: 1.3rem;
+}
+.flex-head p{
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+	font-weight: bold;
+    font-size: 1.3rem;
+}
+.flex-head p span{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.objective{
+    height: auto;
+    padding-bottom: 1rem;
+}
+.objectiveflex h2{
+    padding-top: 1rem;
+	font-weight:bold;
+	font-size: 1.3rem;;
+}
+a{
+    text-decoration: none;
+	color:#535f78;
+	opacity: .6;
+}
+.objectiveflex p{
+    font-size: 1.05rem;
+    line-height: 1.2rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+   
+}
+.education{
+    height: auto;
+    padding-bottom: 1rem;
+}
+.flex-ed h2{
+    padding-top: 1rem;
+	font-weight: bold;
+    font-size: 1.3rem;
+}
+.flex-ed ul {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+}
+.flex-ed ul li span{
+    font-weight: 900;
+    opacity: .8;
+}
+.key{
+    height: auto;
+}
+.flex-key h2{
+    padding-top: 1rem;
+	font-weight: bold;
+    font-size: 1.3rem;
+}
+.flex-key ul {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+    list-style-type:disc;
+   
+}
+.activity{
+    height: auto;
+}
+.activity h2{
+    padding-top: 1rem;
+	font-weight: bold;
+    font-size: 1.3rem;
+}
+.activity ul {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+   list-style-type:disc;
+}
+.personal{
+    height: auto;
+
+}
+.personal h2{
+    padding-top: 1rem;
+	font-weight: bold;
+    font-size: 1.3rem;
+}
+.flex-personal p {
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+}
+.flex-personal p span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+@media(min-width:760px){
+    .container{
+        width:730px;
+        margin:auto;
+    }
+}
+@media(min-width:1000px){
+    .container{
+        width:930px;
+        margin:auto;
+        
+    }
+   .objective p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    }
+    .personal p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .activity li{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .education li{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+  .key li{
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .key{
+    border-left: solid 1px gray;
+  }
+}
